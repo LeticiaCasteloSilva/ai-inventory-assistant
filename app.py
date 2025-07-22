@@ -32,8 +32,6 @@ st.sidebar.markdown(
 st.write('Faça perguntas sobre o estoque de produtos, preços e reposicões.')
 user_question = st.text_input('O que deseja saber sobre o estoque?')
 
-# LÓGICA DO AGENTE AQUI
-
 if st.button('Consultar'):
     with st.spinner("Consultando o banco de dados..."):
         if user_question:
